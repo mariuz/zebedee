@@ -62,8 +62,8 @@ ZLIB = -lz
 #BZINC = -I/usr/include
 #BZLIB = -lbz2
 
-BZINC = -I../bzip2-1.0.6
-BZLIB = ../bzip2-1.0.6/libbz2.a
+#BZINC = -I../bzip2-1.0.6
+#BZLIB = ../bzip2-1.0.6/libbz2.a
 
 #
 # Tools needed for Perl "POD"-format documentation conversion.
