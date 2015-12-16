@@ -59,8 +59,8 @@ ZLIB = -lz
 # Location of bzlib include and library
 # Set these empty if you don't want bzib2 support
 
-#BZINC = -I/usr/include
-#BZLIB = -lbz2
+BZINC = -I/usr/include
+BZLIB = -lbz2
 
 #BZINC = -I../bzip2-1.0.6
 #BZLIB = ../bzip2-1.0.6/libbz2.a
