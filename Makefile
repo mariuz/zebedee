@@ -208,7 +208,7 @@ TXTFILES = README.txt LICENCE.txt GPL2.txt CHANGES.txt NOTICE.txt \
 
 EXTRAFILES = $(ZBDFILES) $(TXTFILES)
 
-all : precheck zebedee$(EXE) zebedee.1 zebedee.html ftpgw.tcl.1 ftpgw.tcl.html zebedee.ja_JP.html
+all : precheck zebedee$(EXE) ftpgw.tcl.1 ftpgw.tcl.html 
 
 precheck :
 	@ if test -z "$(OS)"; then echo "Use '$(MAKE) OS=xxx' where xxx is win32, linux, linux64, solaris, freebsd, tru64, irix, hpux, macosx or bsdi"; exit 1; fi
